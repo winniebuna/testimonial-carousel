@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="testimonial-section">
+      <div class="inner-width">
+        <h1>
+          What Clients say
+        </h1>
+        <div class="border"></div>
+
+        <div class="slides owl-carousel">
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="./pic.jpg" alt="" />
+              <div class="text-name">
+                <span>Client1</span>
+                @client1
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              repellat non, consequuntur dolore assumenda doloremque. Dolor
+              pariatur porro consequuntur ad harum incidunt. Ex tenetur fuga
+              nemo eveniet illo corrupti voluptate?
+            </p>
+          </div>
+
+          <!--second testimonial-->
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="./pic.jpg" alt="" />
+              <div class="text-name">
+                <span>Client2</span>
+                @client2
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              repellat non, consequuntur dolore assumenda doloremque. Dolor
+              pariatur porro consequuntur ad harum incidunt. Ex tenetur fuga
+              nemo eveniet illo corrupti voluptate?
+            </p>
+          </div>
+
+          <!--third testimonial-->
+          <div class="testimonial">
+            <div class="test-info">
+              <img class="test-pic" src="./pic.jpg" alt="" />
+              <div class="text-name">
+                <span>Client3</span>
+                @client3
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              repellat non, consequuntur dolore assumenda doloremque. Dolor
+              pariatur porro consequuntur ad harum incidunt. Ex tenetur fuga
+              nemo eveniet illo corrupti voluptate?
+            </p>
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+    <!--javascript-->
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          680: {
+            items: 2,
+          },
+          960: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
